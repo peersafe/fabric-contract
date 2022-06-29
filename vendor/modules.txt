@@ -1,6 +1,10 @@
 # github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78
 github.com/Azure/go-ansiterm
 github.com/Azure/go-ansiterm/winterm
+# github.com/BSNDA/ICH v0.0.1
+## explicit
+github.com/BSNDA/ICH/sample/polychain/fabric-contract/online/hellopoly
+github.com/BSNDA/ICH/sample/polychain/fabric-contract/testnet/hellopoly
 # github.com/BurntSushi/toml v0.3.1
 github.com/BurntSushi/toml
 # github.com/JohnCGriffin/overflow v0.0.0-20170615021017-4d914c927216
@@ -135,6 +139,17 @@ github.com/hyperledger/fabric/protos/utils
 ## explicit
 github.com/hyperledger/fabric-amcl/amcl
 github.com/hyperledger/fabric-amcl/amcl/FP256BN
+# github.com/hyperledger/fabric-chaincode-go v0.0.0-20220131132609-1476cf1d3206
+## explicit
+github.com/hyperledger/fabric-chaincode-go/shim
+github.com/hyperledger/fabric-chaincode-go/shim/internal
+# github.com/hyperledger/fabric-protos-go v0.0.0-20220613214546-bf864f01d75e
+## explicit
+github.com/hyperledger/fabric-protos-go/common
+github.com/hyperledger/fabric-protos-go/ledger/queryresult
+github.com/hyperledger/fabric-protos-go/ledger/rwset
+github.com/hyperledger/fabric-protos-go/msp
+github.com/hyperledger/fabric-protos-go/peer
 # github.com/itchyny/base58-go v0.1.0
 github.com/itchyny/base58-go
 # github.com/konsorten/go-windows-terminal-sequences v1.0.1
@@ -237,7 +252,7 @@ github.com/spf13/jwalterweatherman
 github.com/spf13/pflag
 # github.com/spf13/viper v1.6.3
 github.com/spf13/viper
-# github.com/stretchr/testify v1.6.1
+# github.com/stretchr/testify v1.7.0
 ## explicit
 github.com/stretchr/testify/assert
 # github.com/subosito/gotenv v1.2.0

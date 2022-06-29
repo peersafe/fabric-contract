@@ -1,0 +1,23 @@
+# Copyright IBM Corp. All Rights Reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+version: '2.1'
+
+networks:
+  test:
+    name: fabric_test
+
+services:
+  chaincode_org1:
+    image: ccm:latest
+    container_name: ccm.chaincode.com
+    environment:
+      - CHAINCODE_CCID=ccm:4c7e526fbced05a87b86df7ef196f08927b9372ac9a1e2084ecc201ac87bbdc0
+      - CHAINCODE_ADDRESS=ccm.chaincode.com:8080
+      - TLS=true
+    ports:
+      - "8080:8080"
+    networks:
+      - test
